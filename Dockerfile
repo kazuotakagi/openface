@@ -1,3 +1,3 @@
 FROM bamos/openface
 MAINTAINER test
-RUN echo "openshift ALL=(ALL) ALL" >> /etc/sudoers.d/openshift
+RUN echo "openshift ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/openshift
